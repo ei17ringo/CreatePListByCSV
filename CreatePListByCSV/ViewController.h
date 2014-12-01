@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *createPList;
+- (IBAction)startCreatingPList:(id)sender;
+
+
+@property (weak, nonatomic) IBOutlet UILabel *pathTextView;
 
 @end
 

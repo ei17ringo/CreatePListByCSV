@@ -14,6 +14,8 @@
 		1B4706E31A2853E3006FDEFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4706E21A2853E3006FDEFF /* Images.xcassets */; };
 		1B4706E61A2853E3006FDEFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B4706E41A2853E3006FDEFF /* LaunchScreen.xib */; };
 		1B4706F21A2853E3006FDEFF /* CreatePListByCSVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4706F11A2853E3006FDEFF /* CreatePListByCSVTests.m */; };
+		1B4706FC1A28560B006FDEFF /* read.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1B4706FB1A28560B006FDEFF /* read.csv */; };
+		1B4706FE1A2879A3006FDEFF /* created.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B4706FD1A2879A3006FDEFF /* created.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		1B4706EB1A2853E3006FDEFF /* CreatePListByCSVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatePListByCSVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4706F01A2853E3006FDEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B4706F11A2853E3006FDEFF /* CreatePListByCSVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatePListByCSVTests.m; sourceTree = "<group>"; };
+		1B4706FB1A28560B006FDEFF /* read.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read.csv; sourceTree = "<group>"; };
+		1B4706FD1A2879A3006FDEFF /* created.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = created.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,10 @@
 		1B4706D51A2853E3006FDEFF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B4706FB1A28560B006FDEFF /* read.csv */,
 				1B4706D61A2853E3006FDEFF /* Info.plist */,
 				1B4706D71A2853E3006FDEFF /* main.m */,
+				1B4706FD1A2879A3006FDEFF /* created.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -201,7 +207,9 @@
 			files = (
 				1B4706E11A2853E3006FDEFF /* Main.storyboard in Resources */,
 				1B4706E61A2853E3006FDEFF /* LaunchScreen.xib in Resources */,
+				1B4706FC1A28560B006FDEFF /* read.csv in Resources */,
 				1B4706E31A2853E3006FDEFF /* Images.xcassets in Resources */,
+				1B4706FE1A2879A3006FDEFF /* created.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

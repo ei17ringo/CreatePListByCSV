@@ -1,0 +1,8 @@
+H1,PhrasalVerb,,,,,,,
+H2,questionNo,question,answer,selection0,selection1,selection2,selection3,description
+,1001,call in,2,電話をかける,立ち寄る,呼ぶ,通り過ぎる,意味：呼ぶ、お願いする
+,1002,bring about,1,頼る,〜をもたらす,輸送する,頼み込む,〜をもたらす
+H1,Synonym,,,,,,,
+H2,questionNo,question,answer,selection0,selection1,selection2,selection3,description
+,2001,call in aa,2,電話をかける,立ち寄る,呼ぶ,通り過ぎる,意味：呼ぶ、お願いする
+,2002,bring about aa,1,頼る,〜をもたらす,輸送する,頼み込む,〜をもたらす
